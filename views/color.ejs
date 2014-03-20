@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript">
+
+        function changeFunc() {
+            var selectBox = document.getElementById("selectBox");
+            var selectedValue = selectBox.options[selectBox.selectedIndex].value;
+            if(selectedValue=="red"){
+                selectBox.style.color='red';
+            }
+            if(selectedValue=="blue"){
+                selectBox.style.color='blue';
+            }
+        }
+
+    </script>
+</head>
+<body style="background-color: <%= culoare %>">
+<form action='/color' method='post'>
+    <select name="culoareSelectata"id="selectBox" onchange="changeFunc()" style="color:red">
+        <option style="color:red" value="red">RED</option>
+        <option style="color:blue" value="blue">BLUE</option>
+    </select>
+    <input type='submit'>
+</form>
+</body>
+</html>
