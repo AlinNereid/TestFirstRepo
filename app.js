@@ -61,7 +61,7 @@ app.get('/',function(req,res){
     }
 });
 app.get('/users', user.list);
-app.get('/colorSES',function(req,res){
+app.get('/color',function(req,res){
     if(req.session.culoare){
         res.render('color', { culoare: req.session.culoare });
     }
@@ -70,7 +70,7 @@ app.get('/colorSES',function(req,res){
     }
 
 });
-app.post('/colorSES',function(req,res){
+app.post('/color',function(req,res){
     var culoare=req.body.culoareSelectata;
     if(!culoare)
     {
