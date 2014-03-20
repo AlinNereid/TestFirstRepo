@@ -10,6 +10,8 @@ var http = require('http');
 var path = require('path');
 var mongoose = require('mongoose');
 var app = express();
+var server = app.listen(3000);
+var io = require('socket.io').listen(server);
 
 // all environments
 app.set('port', process.env.PORT || 3000);
@@ -49,7 +51,7 @@ intrare({_id:"blabla",name:"bla",age:15}).save(function(err,doc){
 //db.once('open', function callback () {
     // all your database operations(CRUD) here
 //});
-
+/*
 app.get('/',function(req,res){
     if(req.session.bla){
         res.send('sesiune zice'+req.session.bla);
@@ -59,7 +61,7 @@ app.get('/',function(req,res){
         req.session.bla='blaaa';
         res.send('nica');
     }
-});
+});*/
 app.get('/users', user.list);
 app.get('/color',function(req,res){
     if(req.session.culoare){
@@ -85,7 +87,7 @@ app.post('/color',function(req,res){
     }
 
 });
-app.get('/colorC',function(req,res,next){
+app.get('/colorC',function(req,res){
     if(req.cookies.culoare){
         res.render('color', { culoare: req.cookies.culoare });
     }
@@ -94,8 +96,28 @@ app.get('/colorC',function(req,res,next){
         res.render('color', { culoare: 'yellow' });
     }
 });
+
+app.get('/socket',function(req,res){
+    res.render('socket',{title : 'socket'});
+
+});
+
+app.get('/', function (req, res) {
+    res.render('socket',{title : 'socket'});
+});
+
+io.sockets.on('connection', function (socket) {
+    socket.emit('news', { hello: 'world' });
+    socket.on('my other event', function (data) {
+        console.log(data);
+    });
+});
+
+/*
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
-});
+});*/
+
+
 
 //testare GIT
