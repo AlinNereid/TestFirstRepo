@@ -30,7 +30,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
-
+/*
 var db = mongoose.connect('mongodb://localhost/db1');
 
 var Schema=new mongoose.Schema({
@@ -44,7 +44,7 @@ intrare({_id:"blabla",name:"bla",age:15}).save(function(err,doc){
     console.log("erroare");
     else
     console.log("film");
-});
+});*/
 //db.on('error', console.error.bind(console, 'connection error:'));
 //db.once('open', function callback () {
     // all your database operations(CRUD) here
