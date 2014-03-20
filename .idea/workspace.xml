@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="111" column="24" selection-start="2804" selection-end="2804" vertical-scroll-proportion="-11.111111" vertical-offset="1365" max-vertical-offset="1920">
+            <state line="12" column="48" selection-start="300" selection-end="300" vertical-scroll-proportion="0.16949153" vertical-offset="90" max-vertical-offset="1920">
               <folding />
             </state>
           </provider>
@@ -95,10 +95,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="socket.ejs" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="socket.ejs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/socket.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="29" selection-start="222" selection-end="222" vertical-scroll-proportion="0.19662921" vertical-offset="0" max-vertical-offset="534">
+            <state line="18" column="7" selection-start="524" selection-end="524" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="360">
               <folding />
             </state>
           </provider>
@@ -130,8 +130,8 @@
         <option value="$PROJECT_DIR$/routes/socket.ejs" />
         <option value="$PROJECT_DIR$/node_modules/express/Readme.md" />
         <option value="$PROJECT_DIR$/views/index.html" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/views/socket.ejs" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
@@ -471,23 +471,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="1" selection-start="205" selection-end="205" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="270">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/express/node_modules/send/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="36" selection-start="4578" selection-end="4578" vertical-scroll-proportion="-13.875" vertical-offset="207" max-vertical-offset="720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="24" selection-start="2804" selection-end="2804" vertical-scroll-proportion="-11.111111" vertical-offset="1365" max-vertical-offset="1920">
           <folding />
         </state>
       </provider>
@@ -522,7 +508,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/socket.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="29" selection-start="222" selection-end="222" vertical-scroll-proportion="0.19662921" vertical-offset="0" max-vertical-offset="534">
+        <state line="18" column="7" selection-start="524" selection-end="524" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="360">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="1" selection-start="205" selection-end="205" vertical-scroll-proportion="-7.5" vertical-offset="0" max-vertical-offset="270">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="48" selection-start="300" selection-end="300" vertical-scroll-proportion="0.16949153" vertical-offset="90" max-vertical-offset="1920">
           <folding />
         </state>
       </provider>
