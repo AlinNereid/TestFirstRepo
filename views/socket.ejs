@@ -5,7 +5,7 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
       <script src="/socket.io/socket.io.js"></script>
       <script>
-          var socket = io.connect('http://alinnereidapp.heroku.com');
+          var socket = io.connect('http://alinnereidapp.herokuapp.com');
           socket.on('news', function (data) {
               console.log(data['hello']);
               socket.emit('my other event', { my: 'data' });

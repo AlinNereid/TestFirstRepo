@@ -98,7 +98,7 @@
       <file leaf-file-name="socket.ejs" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/socket.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="66" selection-start="259" selection-end="259" vertical-scroll-proportion="0.19662921" vertical-offset="0" max-vertical-offset="534">
+            <state line="7" column="65" selection-start="258" selection-end="258" vertical-scroll-proportion="0.19662921" vertical-offset="0" max-vertical-offset="534">
               <folding />
             </state>
           </provider>
@@ -522,7 +522,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/socket.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="66" selection-start="259" selection-end="259" vertical-scroll-proportion="0.19662921" vertical-offset="0" max-vertical-offset="534">
+        <state line="7" column="65" selection-start="258" selection-end="258" vertical-scroll-proportion="0.19662921" vertical-offset="0" max-vertical-offset="534">
           <folding />
         </state>
       </provider>
